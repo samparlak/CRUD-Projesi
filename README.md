@@ -19,4 +19,4 @@ CRUD  işlemleri gerçekleşirken H2-embedded veritabanımızda ,değişen veril
 
 
 
-1_ **v1.0**
+1_  [v1.0]
