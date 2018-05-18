@@ -16,7 +16,3 @@ CRUD  işlemleri gerçekleşirken H2-embedded veritabanımızda ,değişen veril
 2_ terminalden ../src/main/resources/static/CRUD1/ dizinine erişin. <br/>
 3_ terminalden ng serve --open komutuyla Angular  Projesini çalıştırın. <br/>
 4_ **http://localhost:4200** adresine bağlanın.
-
-
-
-1_  [v1.0](v1.0)
