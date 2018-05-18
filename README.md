@@ -12,7 +12,7 @@ CRUD  işlemleri gerçekleşirken H2-embedded veritabanımızda ,değişen veril
 
 ## Uygulamayı çalıştırmak için
 
-1_ Spring uygulamasını çalıştırın. <br/>
+1_ İndirilen dosyayı SpringFramework çalışma alanınızın dizinine ekleyin vs Spring uygulamasını çalıştırın. <br/>
 2_ terminalden ../src/main/resources/static/CRUD1/ dizinine erişin. <br/>
 3_ terminalden ng serve --open komutuyla Angular  Projesini çalıştırın. <br/>
 4_ **http://localhost:4200** adresine bağlanın.
