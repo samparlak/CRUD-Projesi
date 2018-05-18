@@ -1,0 +1,19 @@
+<div class="container mt-5">
+  <div class="col-md-6 ml-5">
+    <form (ngSubmit)=onSave()>
+      <div class="form-group ">
+        <label for="id">Id</label>
+        <input type="text" class="form-control" name="id" [(ngModel)]="user.id" >
+      </div>
+      <div class="form-group">
+        <label for="id">İsim</label>
+        <input type="text" class="form-control" name="firstName" [(ngModel)]="user.firstName" >
+      </div>
+      <div class="form-group">
+        <label for="id">Soyisim</label>
+        <input type="text" class="form-control" name="lastName" [(ngModel)]="user.lastName" >
+      </div>
+      <input type="submit" class="btn btn-success" value="Kaydet">
+    </form>
+  </div>
+</div>

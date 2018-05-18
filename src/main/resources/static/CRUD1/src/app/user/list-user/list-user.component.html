@@ -1,0 +1,22 @@
+<div class="container mt-5">
+  <div class="col-md-8">
+    <table class="table">
+      <thead style="font-weight:bold;background-color:lightblue">
+        <td>Id</td>
+        <td>İsim</td>
+        <td>Soyisim</td>
+        <td>İşlemler</td>
+      </thead>
+      <tbody *ngFor="let user of users">
+        <tr>
+          <td>{{user.id}}</td>
+          <td>{{user.firstName}}</td>
+          <td>{{user.lastName}}</td>
+          <input type="button" class="btn btn-danger mt-1" value="Sil" (click)="deleteUser(user)" >
+          <input type="button" class="btn btn-success mt-1 ml-2" value="Düzenle" (click)="updateUser(user)" >
+        </tr>
+      </tbody>
+    </table>
+    <input type="button" class="btn btn-primary" value="Yeni Kişi Ekle" (click)=createUser(user) >
+  </div>
+</div>
